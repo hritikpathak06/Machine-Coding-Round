@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.add-comment {
+  display: flex;
+  gap: 5px;
+  margin: 5px 0;
+  padding: 10px 20px;
+}
+
+.comment-textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.comment-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #007;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}

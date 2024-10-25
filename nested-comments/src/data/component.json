@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "content": "This is my first comment",
+    "votes": 5,
+    "timestamp": "2024-06-16T10:00:00Z",
+    "replies": [
+      {
+        "id": 2,
+        "content": "This is a reply of first comment",
+        "votes": 3,
+        "timestamp": "2024-06-16T11:00:00Z",
+        "replies": []
+      },
+      {
+        "id": 3,
+        "content": "This is another reply of first comment",
+        "votes": 32,
+        "timestamp": "2024-06-16T12:00:00Z",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "This is my second comment",
+    "votes": 51,
+    "timestamp": "2024-06-16T10:00:00Z",
+    "replies": [
+      {
+        "id": 5,
+        "content": "This is a reply of second comment",
+        "votes": 3,
+        "timestamp": "2024-06-16T11:00:00Z",
+        "replies": []
+      },
+      {
+        "id": 6,
+        "content": "This is another reply of second comment",
+        "votes": 3,
+        "timestamp": "2024-06-16T12:00:00Z",
+        "replies": []
+      }
+    ]
+  }
+]
