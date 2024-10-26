@@ -7,14 +7,14 @@
     "replies": [
       {
         "id": 2,
-        "content": "This is a reply of first comment",
+        "content": "This is a reply to the first comment",
         "votes": 3,
         "timestamp": "2024-06-16T11:00:00Z",
         "replies": []
       },
       {
         "id": 3,
-        "content": "This is another reply of first comment",
+        "content": "Another reply to the first comment",
         "votes": 32,
         "timestamp": "2024-06-16T12:00:00Z",
         "replies": []
@@ -25,22 +25,110 @@
     "id": 4,
     "content": "This is my second comment",
     "votes": 51,
-    "timestamp": "2024-06-16T10:00:00Z",
+    "timestamp": "2024-06-16T10:10:00Z",
     "replies": [
       {
         "id": 5,
-        "content": "This is a reply of second comment",
+        "content": "This is a reply to the second comment",
         "votes": 3,
-        "timestamp": "2024-06-16T11:00:00Z",
+        "timestamp": "2024-06-16T11:10:00Z",
         "replies": []
       },
       {
         "id": 6,
-        "content": "This is another reply of second comment",
+        "content": "Another reply to the second comment",
         "votes": 3,
+        "timestamp": "2024-06-16T12:10:00Z",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "This is my third comment",
+    "votes": 20,
+    "timestamp": "2024-06-16T10:20:00Z",
+    "replies": [
+      {
+        "id": 8,
+        "content": "Reply to the third comment",
+        "votes": 4,
+        "timestamp": "2024-06-16T11:20:00Z",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "content": "This is my fourth comment",
+    "votes": 15,
+    "timestamp": "2024-06-16T10:30:00Z",
+    "replies": []
+  },
+  {
+    "id": 10,
+    "content": "This is my fifth comment",
+    "votes": 8,
+    "timestamp": "2024-06-16T10:40:00Z",
+    "replies": [
+      {
+        "id": 11,
+        "content": "Reply to the fifth comment",
+        "votes": 2,
+        "timestamp": "2024-06-16T11:40:00Z",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "content": "This is my sixth comment",
+    "votes": 42,
+    "timestamp": "2024-06-16T10:50:00Z",
+    "replies": []
+  },
+  {
+    "id": 13,
+    "content": "This is my seventh comment",
+    "votes": 13,
+    "timestamp": "2024-06-16T11:00:00Z",
+    "replies": [
+      {
+        "id": 14,
+        "content": "Reply to the seventh comment",
+        "votes": 5,
         "timestamp": "2024-06-16T12:00:00Z",
         "replies": []
       }
     ]
+  },
+  {
+    "id": 15,
+    "content": "This is my eighth comment",
+    "votes": 25,
+    "timestamp": "2024-06-16T11:10:00Z",
+    "replies": []
+  },
+  {
+    "id": 16,
+    "content": "This is my ninth comment",
+    "votes": 30,
+    "timestamp": "2024-06-16T11:20:00Z",
+    "replies": [
+      {
+        "id": 17,
+        "content": "Reply to the ninth comment",
+        "votes": 7,
+        "timestamp": "2024-06-16T12:20:00Z",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "content": "This is my tenth comment",
+    "votes": 18,
+    "timestamp": "2024-06-16T11:30:00Z",
+    "replies": []
   }
 ]

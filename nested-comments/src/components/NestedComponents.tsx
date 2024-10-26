@@ -15,7 +15,7 @@ const NestedComponents: React.FC<NestedComponentsProps> = ({
   onEdit = () => {},
   onDelete = () => {},
 }) => {
-  const { comments: commentsData } = useCommentTree(comments);
+  const { comments: commentsData,insertComment } = useCommentTree(comments);
   const [comment, setComment] = useState<string>("");
 
   const handleTextAreaChange = (e: any) => {
@@ -25,13 +25,14 @@ const NestedComponents: React.FC<NestedComponentsProps> = ({
   const handleSubmitBtn = () => {
     if (comment) {
       // Logic
+      handleReply(undefined,comment)
 
       setComment("");
     }
   };
 
-  const handleReply = () =>{
-
+  const handleReply = (commentId:any,content:any) =>{
+       insertComment(commentId,content)
   }
 
   return (
