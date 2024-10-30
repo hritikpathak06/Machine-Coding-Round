@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AiFillDelete, AiFillLike } from "react-icons/ai";
 
 type CommentCardProps = {
   comment: any;
@@ -41,8 +42,10 @@ const CommentCard: React.FC<CommentCardProps> = ({
         <button className="comment-button" onClick={toggleExpand}>
           {expand ? "Hid replies" : "Reply"}
         </button>
+        {/* <p className=" comment-info"><AiFillLike/></p> */}
+        <button className="comment-button"><AiFillLike/></button>
         <button className="comment-button">Edit</button>
-        <button className="comment-button">Delete</button>
+        <button className="comment-button"><AiFillDelete/></button>
       </div>
       {expand && (
         <div className="comment-replies">
