@@ -3,6 +3,7 @@ import DatePicker from "./components/DatePicker";
 import DateRangePicker from "./components/DateRangePicker";
 import MultiDatePicker from "./components/MultiDatePicker";
 import CustomModal from "./hooks/CustomeModal";
+import LandingPage from "./components/LandingPage";
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -12,7 +13,7 @@ const App = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      {/* <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
         <button
           onClick={openModal}
           className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
@@ -37,7 +38,10 @@ const App = () => {
         <DatePicker />
         <MultiDatePicker />
         <DateRangePicker />
-      </div>
+      </div> */}
+
+      {/* Landing Page */}
+      <LandingPage />
     </>
   );
 };

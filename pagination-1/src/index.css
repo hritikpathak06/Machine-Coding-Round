@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.main_div {
+  width: 80vw;
+  height: 90vh;
+  background-color: seashell;
+  margin: auto;
+  margin-top: 20px;
+  /* overflow: h */
+  padding: 20px;
+}
+
+.sub_div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card_container {
+  width: 30%;
+  background-color: black;
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 30px;
+}
+
+.active{
+  background:green;
+}
