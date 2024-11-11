@@ -14,15 +14,6 @@
   color: black;
 }
 
-.container {
-  /* height: 100vh;
-  width: 100vw;
-  background-color: bisque;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
-}
 
 .sub_container {
   height: 300px;
@@ -32,16 +23,11 @@
   margin: auto;
   display: flex;
   gap: 40px;
-  overflow-x: scroll; /* Horizontal scroll */
-  /* overflow-y: hidden; Hide vertical scroll */
-  scroll-behavior: smooth; /* Smooth scrolling effect */
+  overflow-x: scroll; 
+  scroll-behavior: smooth; 
   padding: 20px;
-  /* scrollbar-width: none; Firefox */
 }
 
-/* .sub_container::-webkit-scrollbar {
-  display: none;
-} */
 
 .image_container {
   height: 100%;
@@ -59,7 +45,6 @@ img {
 .btn_box {
   display: flex;
   width: 100%;
-  /* background-color: black; */
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
