@@ -11,6 +11,7 @@ export const ThemeContextProvider = ({ children }: any) => {
     setTheme((prev: ThemeContextProps) => {
       const newTheme = prev === "light" ? "dark" : "light";
       localStorage.setItem("theme", newTheme);
+      
     });
   };
 
