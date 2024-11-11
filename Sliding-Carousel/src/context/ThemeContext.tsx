@@ -11,8 +11,8 @@ export const ThemeContextProvider = ({ children }: any) => {
     setTheme((prev: ThemeContextProps) => {
       const newTheme = prev === "light" ? "dark" : "light";
       localStorage.setItem("theme", newTheme);
-      
-    });
+
+    }) ;
   };
 
   useEffect(() => {
@@ -20,7 +20,6 @@ export const ThemeContextProvider = ({ children }: any) => {
     if (savedTheme) {
       setTheme(savedTheme);
     }
-
     document.body.classList.remove("light", "dark");
     document.body.classList.add(theme);
   }, [theme]);
