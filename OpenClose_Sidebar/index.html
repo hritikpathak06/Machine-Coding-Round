@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open-Close Sidebar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left-navbar">
+        <h1>Navbar</h1>
+      </div>
+      <div class="right-navbar">
+        <ul class="navbar_ul">
+          <li>Home</li>
+          <li>About</li>
+          <li>Portfolio</li>
+          <li>Links</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mobile view -->
+    <div class="mobile_navbar">
+      <div class="mobile_menu_button" onclick="toggleMenu()">☰</div>
+      <div class="mobile_sidebar" id="mobileSidebar">
+        <li onclick="toggleMenu()" class="cancel_btn">X</li>
+        <ul class="mobile_navbar_ul">
+          <li onclick="toggleMenu()">Home</li>
+          <li onclick="toggleMenu()">About</li>
+          <li onclick="toggleMenu()">Portfolio</li>
+          <li onclick="toggleMenu()">Links</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
