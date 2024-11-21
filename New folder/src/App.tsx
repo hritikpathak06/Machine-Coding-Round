@@ -4,11 +4,14 @@ interface ColumnType {
   column1: string[];
   column2: string[];
 }
+{
+  columns:[]
+}
 
 const App = () => {
   const [columns, setColumns] = useState<ColumnType | any>({
     column1: ["Item1", "Item2"],
-    column2: ["Item3", "Item9"],
+    column2: ["Item3", "Item9",],
     column3: ["Item4", "Item5", "Item6"],
   });
 
