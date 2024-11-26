@@ -97,19 +97,26 @@ function shareTheVideo(video) {
   });
 }
 
-importantAction("rocky")
-  .then((res) => {
-    console.log(res);
-    likeTheVideo("Sunny")
-      .then((res) => {
-        console.log(res);
+// Promise hell
 
-        shareTheVideo()
-          .then((res) => console.log(res))
-          .catch((err) => console.log(err));
-      })
-      .catch((err) => console.log(err));
-  })
-  .catch((err) => console.log(err));
+// importantAction("rocky")
+//   .then((res) => {
+//     console.log(res);
+//     likeTheVideo("Sunny")
+//       .then((res) => {
+//         console.log(res);
+
+//         shareTheVideo()
+//           .then((res) => console.log(res))
+//           .catch((err) => console.log(err));
+//       })
+//       .catch((err) => console.log(err));
+//   })
+//   .catch((err) => console.log(err));
+
+
+// Promise chaining
+
+
 
 console.log("stop");
