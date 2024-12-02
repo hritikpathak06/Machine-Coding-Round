@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  background-color: red;
+  height: 50px;
+}
+
+.progress_div {
+  width: 400px;
+  background-color: orange;
+  height: 100%;
+}
+
+.counter {
+  width: 10%;
+  height: 100%;
+  background-color: blue;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin: auto; */
+}
+
+.counter > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 30px;
+  cursor: pointer;
+}
