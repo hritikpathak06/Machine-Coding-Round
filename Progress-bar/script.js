@@ -14,6 +14,15 @@ startBtn.addEventListener("click", () => {
     }
     width += 10;
     counter.style.width = `${width}%`;
+    if (width >= 10) {
+      counter.style.backgroundColor = "blue";
+    }
+    if (width >= 50) {
+      counter.style.backgroundColor = "yellow";
+    }
+    if (width >= 80) {
+      counter.style.backgroundColor = "green";
+    }
     text.innerHTML = `${width}%`;
   }, 1000);
 });

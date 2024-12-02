@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,13 +30,14 @@ body {
 }
 
 .counter {
-  width: 10%;
+  /* width: 10%; */
   height: 100%;
-  background-color: blue;
+  /* background-color: blue; */
   /* display: flex;
   align-items: center;
   justify-content: center; */
   /* margin: auto; */
+  transition: width 1s ease, background-color 0.5s ease;
 }
 
 .counter > h1 {
