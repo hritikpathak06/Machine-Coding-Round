@@ -45,3 +45,26 @@
 .input_box:focus {
   border: 2px solid green;
 }
+
+.calculator {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.calculator_container {
+  display: grid;
+  width: auto;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  /* background-color: orange; */
+}
+
+.calculator_container > button {
+  cursor: pointer;
+  padding: 5px 10px;
+}
