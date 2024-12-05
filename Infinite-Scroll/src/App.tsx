@@ -2,13 +2,15 @@
 import Calculator from './components/Calculator'
 import InfiniteScroll from './components/InfiniteScroll'
 import OTP from './components/OTP'
+import StarRating from './components/StarRating'
 
 const App = () => {
   return (
     <div>
       {/* <InfiniteScroll/> */}
       {/* <OTP/> */}
-      <Calculator/>
+      {/* <Calculator/> */}
+      <StarRating/>
     </div>
   )
 }
