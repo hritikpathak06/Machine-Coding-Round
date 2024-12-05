@@ -19,3 +19,29 @@
   color: #007bff;
   margin-top: 20px;
 }
+
+.otp {
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
+
+.otp_box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input_box {
+  width: 40px;
+  padding: 10px 20px;
+}
+
+.input_box:focus {
+  border: 2px solid green;
+}

@@ -1,10 +1,12 @@
 
 import InfiniteScroll from './components/InfiniteScroll'
+import OTP from './components/OTP'
 
 const App = () => {
   return (
     <div>
-      <InfiniteScroll/>
+      {/* <InfiniteScroll/> */}
+      <OTP/>
     </div>
   )
 }
