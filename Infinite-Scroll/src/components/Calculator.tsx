@@ -17,7 +17,7 @@ const arr = [
   "-",
   "(",
   ")",
-  "C", // Add "C" for clearing the input
+  "C", 
   "=",
   ".",
 ];

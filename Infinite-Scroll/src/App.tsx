@@ -1,8 +1,10 @@
 
 import Calculator from './components/Calculator'
+import Carousel from './components/InfiniteCarousel'
 import InfiniteScroll from './components/InfiniteScroll'
 import OTP from './components/OTP'
 import StarRating from './components/StarRating'
+import "./App.css"
 
 const App = () => {
   return (
@@ -10,7 +12,8 @@ const App = () => {
       {/* <InfiniteScroll/> */}
       {/* <OTP/> */}
       {/* <Calculator/> */}
-      <StarRating/>
+      {/* <StarRating/> */}
+      <Carousel/>
     </div>
   )
 }
