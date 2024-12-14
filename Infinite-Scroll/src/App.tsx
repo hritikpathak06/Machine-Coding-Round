@@ -5,6 +5,7 @@ import InfiniteScroll from './components/InfiniteScroll'
 import OTP from './components/OTP'
 import StarRating from './components/StarRating'
 import "./App.css"
+import DragDrop from './components/Drag-Drop'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <OTP/> */}
       {/* <Calculator/> */}
       {/* <StarRating/> */}
-      <Carousel/>
+      {/* <Carousel/> */}
+      <DragDrop/>
     </div>
   )
 }
