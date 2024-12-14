@@ -6,6 +6,7 @@ import OTP from './components/OTP'
 import StarRating from './components/StarRating'
 import "./App.css"
 import DragDrop from './components/Drag-Drop'
+import Introduction from './components/React-Flow/Introduction'
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       {/* <Calculator/> */}
       {/* <StarRating/> */}
       {/* <Carousel/> */}
-      <DragDrop/>
+      {/* <DragDrop/> */}
+      <Introduction/>
     </div>
   )
 }
