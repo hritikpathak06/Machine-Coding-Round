@@ -61,7 +61,7 @@ const DragDrop = () => {
                 return (
                   <>
                     <div
-                      className=" drag_content"
+                      className=" drag_content "
                       key={index}
                       draggable
                       onDragStart={(e) => handleDragStart(e, data, column)}
