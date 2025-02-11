@@ -4,6 +4,7 @@ import DateRangePicker from "./components/DateRangePicker";
 import MultiDatePicker from "./components/MultiDatePicker";
 import CustomModal from "./hooks/CustomeModal";
 import LandingPage from "./components/LandingPage";
+import DummyFormWithTable from "./components/Dummy";
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -41,7 +42,8 @@ const App = () => {
       </div> */}
 
       {/* Landing Page */}
-      <LandingPage />
+      {/* <LandingPage /> */}
+      <DummyFormWithTable/>
     </>
   );
 };
