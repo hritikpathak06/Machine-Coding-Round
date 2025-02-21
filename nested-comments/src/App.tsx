@@ -1,5 +1,7 @@
 import FileExplorer from "./components/FileExplorer/FileExplorer";
+import CommentCard from "./components/Nested/CommentCard";
 import Nested from "./components/NestedComment/Nested";
+import ProgressBar from "./components/ProgressBar/ProgressBar";
 import data from "./data/component.json";
 
 const App = () => {
@@ -15,7 +17,9 @@ const App = () => {
           onUpvote={() => {}}
           onDownVote={() => {}}
         /> */}
-        <FileExplorer/>
+        {/* <FileExplorer/> */}
+        {/* <CommentCard/> */}
+        <ProgressBar/>
       </div>
     </>
   );
