@@ -14,7 +14,7 @@ const App = () => {
       label: "Email",
       inputType: "email",
       buttonName: "Next",
-      placeHolderName: "Enter Your Email",
+      placeHolderName: "Enter Your Email ",
     },
     {
       id: "password",
