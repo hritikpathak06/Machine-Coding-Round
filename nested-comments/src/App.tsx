@@ -1,3 +1,4 @@
+import Faq from "./components/faq/Faq";
 import FileExplorer from "./components/FileExplorer/FileExplorer";
 import CommentCard from "./components/Nested/CommentCard";
 import Nested from "./components/NestedComment/Nested";
@@ -19,7 +20,8 @@ const App = () => {
         /> */}
         {/* <FileExplorer/> */}
         {/* <CommentCard/> */}
-        <ProgressBar/>
+        {/* <ProgressBar/> */}
+        <Faq/>
       </div>
     </>
   );
