@@ -42,6 +42,7 @@ const all_fields = [
   },
 ];
 
+
 const Form1 = ({ field, handleValueChange }: any) => {
   return (
     <div>
@@ -101,7 +102,6 @@ const MultiStepForm = () => {
     }
   };
 
-  console.log("Form Data:", formData);
 
   return (
     <div>

@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container_1 {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .container_2 {
+    background-color: #ddd;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-left: 2px solid #ccc;
+  }
+  
+  /* Resizer */
+  .resizer {
+    width: 8px;
+    height: 100%;
+    background-color: #bbb;
+    cursor: col-resize;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  

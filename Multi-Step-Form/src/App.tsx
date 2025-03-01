@@ -88,11 +88,13 @@
 
 
 import MultiStepForm from './components/MultiStepForm'
+import ResizableSheet from './components/ResiableSheet/page'
 
 const App = () => {
   return (
     <div>
-      <MultiStepForm/>
+      {/* <MultiStepForm/> */}
+      <ResizableSheet/>
     </div>
   )
 }
