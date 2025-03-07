@@ -1,9 +1,9 @@
-import AttendanceTable from "./components/Attendence";
+import OptionSelector from "./components/OptionSelector";
 
 const App = () => {
   return (
     <div>
-      <AttendanceTable />
+      <OptionSelector/>
     </div>
   );
 };
